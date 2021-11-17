@@ -1,0 +1,97 @@
+/* font-family: 'Inconsolata', monospace;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Space Mono', monospace; */
+
+
+body{
+    margin: 20px;
+}
+
+.logo img{
+    width: 380px;
+    height: 214px;
+    border-radius: 12px;
+}
+.descrip{
+    display: flex;
+}
+.descrip{
+    margin: 0px;
+}
+
+h1{
+    font-family: Playfair Display;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 32px;
+
+}
+
+.descrip p{
+    margin: 0;
+    padding-left: 5px   ;
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.logo img{
+    width: 392px;
+    height: 214px;
+    border-radius: 12px;
+    margin-top: 1rem;
+}
+
+#knife img{
+    Width: 13.54px;
+    Height: 12.57px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+#yield{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 8px;
+line-height: 10px;
+text-transform: uppercase;
+margin: 0;
+
+/* Gray 4 */
+
+color: #BDBDBD;
+}
+#servings{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 10px;
+line-height: 12px;
+margin: 0;
+
+/* Orange */
+
+color: #F2994A;
+
+}
+
+#knifecontainer{
+    display: flex;
+}
+
+.iconos{
+    margin-top: 12px    ;
+}
+
+#relojes {
+    display: flex;
+}
+.preptime{
+    display: flex;
+}
