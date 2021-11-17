@@ -148,7 +148,7 @@ color: #F2994A;
 .cracker-check .listc1{
     display: flex;
 }
-.cracker-check .ingredienttext{
+.ingredienttext{
     font-family:'Montserrat', sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -156,10 +156,112 @@ color: #F2994A;
     line-height: 25px;
     color: #333333;
 }
-.cracker-check .check1{
-
+.check1{
+    width: 21px;
+    height: 21px;
+    left: 13px;
+    top: 583px;
+    border: 1px solid #828282;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin-right: 10px;
 }
 
 span{
     font-weight: bold;
+}
+
+/* Cheesecake */
+
+#cheesecaketitle{
+    font-family: 'Playfair Display', serif;
+    width: 287px;
+    height: 48px;
+    left: 14px;
+    top: 735px;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;    
+    margin-bottom: 0;
+}
+
+.cheesecake-list{
+    display: flex;
+    flex-direction: column;
+}
+
+.cheesecake-list .listc2{
+    display: flex;
+    margin-top: 10px;
+}
+
+
+/* instructions */
+#instructions{
+    font-family:'Playfair Display', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    color: #333333;
+}
+
+.instructionstext button{
+    width: 36px;
+    height: 36px;
+    left: 12px;
+    top: 1275px;
+    background: #F2994A;
+    border-radius: 6px;
+    font-family:'Playfair Display', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    color: white;
+    text-align: center;
+}
+.instructionstext{
+    display: flex;
+    flex-direction: column;
+
+}
+.instructionstext .listc3{
+    display: flex;
+    padding-top: 10px;
+
+}
+
+.instructionstext .instructiontex{
+    font-family:'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    margin-left: 8px;
+}
+
+#source{
+    font-family:'Montserrat', sans-serif;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 150%;
+
+color: #BDBDBD;
+}
+#createdby{
+
+    font-family:'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #828282;
+
+
+text-align: center;
+
+
 }
