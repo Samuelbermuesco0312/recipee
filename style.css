@@ -265,3 +265,53 @@ text-align: center;
 
 
 }
+
+@media (min-width: 768px){
+    
+    body{
+        margin: 0%;
+    }
+
+    h1{
+      margin-left: 50px;
+      font-size: 48px;
+
+    }
+    .descrip  {
+        width: 592px;
+        margin-left: 50px;
+        font: size 14px;
+
+    }
+    .logo img{
+        width: 969px;
+        height: 470px;
+        margin-left: 50px;
+
+    }
+
+    .iconos{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        background: #FFFFFF;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+        border-radius: 12px;
+    }
+
+    .iconos #relojes{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+
+    }
+
+
+
+
+
+
+}
